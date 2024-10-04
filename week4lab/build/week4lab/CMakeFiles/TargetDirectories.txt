@@ -1,0 +1,9 @@
+/home/student/ros2_ws/src/week4lab/build/week4lab/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/week4lab/build/week4lab/CMakeFiles/week4lab_uninstall.dir
+/home/student/ros2_ws/src/week4lab/build/week4lab/CMakeFiles/test.dir
+/home/student/ros2_ws/src/week4lab/build/week4lab/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/week4lab/build/week4lab/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/week4lab/build/week4lab/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/week4lab/build/week4lab/CMakeFiles/install.dir
+/home/student/ros2_ws/src/week4lab/build/week4lab/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/week4lab/build/week4lab/CMakeFiles/install/strip.dir

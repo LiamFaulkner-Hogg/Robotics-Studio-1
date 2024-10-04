@@ -1,0 +1,15 @@
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/ament_index/resource_index/package_run_dependencies/week4lab
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/ament_index/resource_index/parent_prefix_path/week4lab
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/environment/ament_prefix_path.sh
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/environment/path.sh
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/environment/path.dsv
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/local_setup.bash
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/local_setup.sh
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/local_setup.zsh
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/local_setup.dsv
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/package.dsv
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/ament_index/resource_index/packages/week4lab
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/cmake/week4labConfig.cmake
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/cmake/week4labConfig-version.cmake
+/home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/package.xml

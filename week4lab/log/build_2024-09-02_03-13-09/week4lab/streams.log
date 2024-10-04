@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/home/student/ros2_ws/src/week4lab/build/week4lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week4lab/build/week4lab -- -j8 -l8
+[0.064s] Invoked command in '/home/student/ros2_ws/src/week4lab/build/week4lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week4lab/build/week4lab -- -j8 -l8
+[0.105s] Invoking command in '/home/student/ros2_ws/src/week4lab/build/week4lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/week4lab/build/week4lab
+[0.115s] -- Install configuration: ""
+[0.116s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/ament_index/resource_index/package_run_dependencies/week4lab
+[0.116s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/ament_index/resource_index/parent_prefix_path/week4lab
+[0.116s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/environment/ament_prefix_path.sh
+[0.116s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/environment/ament_prefix_path.dsv
+[0.116s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/environment/path.sh
+[0.116s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/environment/path.dsv
+[0.116s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/local_setup.bash
+[0.116s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/local_setup.sh
+[0.116s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/local_setup.zsh
+[0.117s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/local_setup.dsv
+[0.118s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/package.dsv
+[0.118s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/ament_index/resource_index/packages/week4lab
+[0.119s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/cmake/week4labConfig.cmake
+[0.119s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/cmake/week4labConfig-version.cmake
+[0.119s] -- Up-to-date: /home/student/ros2_ws/src/week4lab/install/week4lab/share/week4lab/package.xml
+[0.120s] Invoked command in '/home/student/ros2_ws/src/week4lab/build/week4lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/week4lab/build/week4lab
