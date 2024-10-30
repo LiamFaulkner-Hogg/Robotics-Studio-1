@@ -1,0 +1,130 @@
+\hypertarget{classMapOverlayNode}{}\doxysection{Map\+Overlay\+Node Class Reference}
+\label{classMapOverlayNode}\index{MapOverlayNode@{MapOverlayNode}}
+
+
+This class subscribes to an occupancy grid topic and overlays the grid onto a static map image.  
+
+
+
+
+Inheritance diagram for Map\+Overlay\+Node\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=181pt]{classMapOverlayNode__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Map\+Overlay\+Node\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=181pt]{classMapOverlayNode__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMapOverlayNode_a6763b325342a42031141df1f6496b57f}{Map\+Overlay\+Node}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for \mbox{\hyperlink{classMapOverlayNode}{Map\+Overlay\+Node}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classMapOverlayNode_adfc40eafab6ec7ea7c9f77632a9678a9}{occupancy\+Grid\+Callback}} (const nav\+\_\+msgs\+::msg\+::\+Occupancy\+Grid\+::\+Shared\+Ptr msg)
+\begin{DoxyCompactList}\small\item\em Callback function for processing the occupancy grid messages. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+rclcpp\+::\+Subscription$<$ nav\+\_\+msgs\+::msg\+::\+Occupancy\+Grid $>$\+::Shared\+Ptr \mbox{\hyperlink{classMapOverlayNode_a30909fc2ec9590cf4e23ab92daa6ff4c}{occupancy\+\_\+grid\+\_\+sub\+\_\+}}
+\item 
+cv\+::\+Mat \mbox{\hyperlink{classMapOverlayNode_a4b887e395b776dc44c1cb7d20ca3dce4}{static\+\_\+map\+\_\+image\+\_\+}}
+\item 
+cv\+::\+Mat \mbox{\hyperlink{classMapOverlayNode_a402f2e70bd06194667bbacfc79bab13a}{static\+\_\+map\+\_\+image\+\_\+color\+\_\+}}
+\item 
+double \mbox{\hyperlink{classMapOverlayNode_aaff08134083d3e21e82d99a5da65ded0}{map\+\_\+resolution\+\_\+}}
+\item 
+double \mbox{\hyperlink{classMapOverlayNode_ad7d82a9b2dd648edcbeadd277bd45097}{map\+\_\+origin\+\_\+x\+\_\+}}
+\item 
+double \mbox{\hyperlink{classMapOverlayNode_a2af408eded12b7a0386f6d90282c9786}{map\+\_\+origin\+\_\+y\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class subscribes to an occupancy grid topic and overlays the grid onto a static map image. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classMapOverlayNode_a6763b325342a42031141df1f6496b57f}\label{classMapOverlayNode_a6763b325342a42031141df1f6496b57f}} 
+\index{MapOverlayNode@{MapOverlayNode}!MapOverlayNode@{MapOverlayNode}}
+\index{MapOverlayNode@{MapOverlayNode}!MapOverlayNode@{MapOverlayNode}}
+\doxysubsubsection{\texorpdfstring{MapOverlayNode()}{MapOverlayNode()}}
+{\footnotesize\ttfamily Map\+Overlay\+Node\+::\+Map\+Overlay\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor for \mbox{\hyperlink{classMapOverlayNode}{Map\+Overlay\+Node}}. 
+
+Initializes the node, loads the static map, subscribes to the occupancy grid topic, and sets up the window for displaying the overlay. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMapOverlayNode_adfc40eafab6ec7ea7c9f77632a9678a9}\label{classMapOverlayNode_adfc40eafab6ec7ea7c9f77632a9678a9}} 
+\index{MapOverlayNode@{MapOverlayNode}!occupancyGridCallback@{occupancyGridCallback}}
+\index{occupancyGridCallback@{occupancyGridCallback}!MapOverlayNode@{MapOverlayNode}}
+\doxysubsubsection{\texorpdfstring{occupancyGridCallback()}{occupancyGridCallback()}}
+{\footnotesize\ttfamily void Map\+Overlay\+Node\+::occupancy\+Grid\+Callback (\begin{DoxyParamCaption}\item[{const nav\+\_\+msgs\+::msg\+::\+Occupancy\+Grid\+::\+Shared\+Ptr}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Callback function for processing the occupancy grid messages. 
+
+This function overlays the occupancy grid data onto the static map image and displays the result.
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & The occupancy grid message received from the ROS topic. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classMapOverlayNode_ad7d82a9b2dd648edcbeadd277bd45097}\label{classMapOverlayNode_ad7d82a9b2dd648edcbeadd277bd45097}} 
+\index{MapOverlayNode@{MapOverlayNode}!map\_origin\_x\_@{map\_origin\_x\_}}
+\index{map\_origin\_x\_@{map\_origin\_x\_}!MapOverlayNode@{MapOverlayNode}}
+\doxysubsubsection{\texorpdfstring{map\_origin\_x\_}{map\_origin\_x\_}}
+{\footnotesize\ttfamily double Map\+Overlay\+Node\+::map\+\_\+origin\+\_\+x\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classMapOverlayNode_a2af408eded12b7a0386f6d90282c9786}\label{classMapOverlayNode_a2af408eded12b7a0386f6d90282c9786}} 
+\index{MapOverlayNode@{MapOverlayNode}!map\_origin\_y\_@{map\_origin\_y\_}}
+\index{map\_origin\_y\_@{map\_origin\_y\_}!MapOverlayNode@{MapOverlayNode}}
+\doxysubsubsection{\texorpdfstring{map\_origin\_y\_}{map\_origin\_y\_}}
+{\footnotesize\ttfamily double Map\+Overlay\+Node\+::map\+\_\+origin\+\_\+y\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classMapOverlayNode_aaff08134083d3e21e82d99a5da65ded0}\label{classMapOverlayNode_aaff08134083d3e21e82d99a5da65ded0}} 
+\index{MapOverlayNode@{MapOverlayNode}!map\_resolution\_@{map\_resolution\_}}
+\index{map\_resolution\_@{map\_resolution\_}!MapOverlayNode@{MapOverlayNode}}
+\doxysubsubsection{\texorpdfstring{map\_resolution\_}{map\_resolution\_}}
+{\footnotesize\ttfamily double Map\+Overlay\+Node\+::map\+\_\+resolution\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classMapOverlayNode_a30909fc2ec9590cf4e23ab92daa6ff4c}\label{classMapOverlayNode_a30909fc2ec9590cf4e23ab92daa6ff4c}} 
+\index{MapOverlayNode@{MapOverlayNode}!occupancy\_grid\_sub\_@{occupancy\_grid\_sub\_}}
+\index{occupancy\_grid\_sub\_@{occupancy\_grid\_sub\_}!MapOverlayNode@{MapOverlayNode}}
+\doxysubsubsection{\texorpdfstring{occupancy\_grid\_sub\_}{occupancy\_grid\_sub\_}}
+{\footnotesize\ttfamily rclcpp\+::\+Subscription$<$nav\+\_\+msgs\+::msg\+::\+Occupancy\+Grid$>$\+::Shared\+Ptr Map\+Overlay\+Node\+::occupancy\+\_\+grid\+\_\+sub\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classMapOverlayNode_a4b887e395b776dc44c1cb7d20ca3dce4}\label{classMapOverlayNode_a4b887e395b776dc44c1cb7d20ca3dce4}} 
+\index{MapOverlayNode@{MapOverlayNode}!static\_map\_image\_@{static\_map\_image\_}}
+\index{static\_map\_image\_@{static\_map\_image\_}!MapOverlayNode@{MapOverlayNode}}
+\doxysubsubsection{\texorpdfstring{static\_map\_image\_}{static\_map\_image\_}}
+{\footnotesize\ttfamily cv\+::\+Mat Map\+Overlay\+Node\+::static\+\_\+map\+\_\+image\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classMapOverlayNode_a402f2e70bd06194667bbacfc79bab13a}\label{classMapOverlayNode_a402f2e70bd06194667bbacfc79bab13a}} 
+\index{MapOverlayNode@{MapOverlayNode}!static\_map\_image\_color\_@{static\_map\_image\_color\_}}
+\index{static\_map\_image\_color\_@{static\_map\_image\_color\_}!MapOverlayNode@{MapOverlayNode}}
+\doxysubsubsection{\texorpdfstring{static\_map\_image\_color\_}{static\_map\_image\_color\_}}
+{\footnotesize\ttfamily cv\+::\+Mat Map\+Overlay\+Node\+::static\+\_\+map\+\_\+image\+\_\+color\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{overlay_8cpp}{overlay.\+cpp}}\end{DoxyCompactItemize}

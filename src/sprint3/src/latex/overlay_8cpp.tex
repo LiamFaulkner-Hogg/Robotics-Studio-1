@@ -1,0 +1,49 @@
+\hypertarget{overlay_8cpp}{}\doxysection{overlay.\+cpp File Reference}
+\label{overlay_8cpp}\index{overlay.cpp@{overlay.cpp}}
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include $<$opencv2/opencv.\+hpp$>$}\newline
+{\ttfamily \#include $<$rclcpp/rclcpp.\+hpp$>$}\newline
+{\ttfamily \#include $<$nav\+\_\+msgs/msg/occupancy\+\_\+grid.\+hpp$>$}\newline
+Include dependency graph for overlay.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{overlay_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classMapOverlayNode}{Map\+Overlay\+Node}}
+\begin{DoxyCompactList}\small\item\em This class subscribes to an occupancy grid topic and overlays the grid onto a static map image. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{overlay_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Main function to run the \mbox{\hyperlink{classMapOverlayNode}{Map\+Overlay\+Node}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{overlay_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}\label{overlay_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{overlay.cpp@{overlay.cpp}!main@{main}}
+\index{main@{main}!overlay.cpp@{overlay.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Main function to run the \mbox{\hyperlink{classMapOverlayNode}{Map\+Overlay\+Node}}. 
+
+Initializes the ROS 2 system, creates the \mbox{\hyperlink{classMapOverlayNode}{Map\+Overlay\+Node}}, and spins the node until shutdown.
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Number of command-\/line arguments. \\
+\hline
+{\em argv} & Command-\/line arguments. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Exit code. 
+\end{DoxyReturn}
